@@ -1,0 +1,20 @@
+.fondo .contenedor .header h1 {
+  animation: ease-in-out 5s infinite alternate loop;
+  animation-name: updown;
+  font-size: 40px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-family: 'Font Awesome 5 Free Solid';
+  border-radius: 50%; }
+@keyframes updown {
+  from {
+    margin-left: 40%;
+    width: 100%; }
+  to {
+    margin-left: -50%;
+    width: 100%; } }
+  .fondo .contenedor .header h1 .span {
+    color: #383d4f; }
+
+/*# sourceMappingURL=animation.css.map */

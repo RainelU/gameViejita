@@ -1,6 +1,91 @@
 .contenedor {
-  text-align: center;
-  padding: 10%;
-  background-color: lightblue; }
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .contenedor .header {
+    z-index: 1;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center; }
+
+.container {
+  margin: 0% 30% 0% 30%;
+  font-weight: bold;
+  font-family: 'Font Awesome 5 Free'; }
+  .container .row {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+  .container .row-item {
+    text-align: center;
+    padding: 80px;
+    color: white; }
+  .container #clic1 {
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    color: white; }
+  .container #clic2 {
+    text-align: center;
+    font-size: 30px;
+    border-right: none;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    color: white; }
+  .container #clic3 {
+    text-align: center;
+    font-size: 30px;
+    border-right: none;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: 1px solid white;
+    color: white; }
+  .container #clic4 {
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    color: white; }
+  .container #clic5 {
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    color: white; }
+  .container #clic6 {
+    font-size: 30px; }
+  .container #clic7 {
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid white;
+    border-bottom: none;
+    border-top: 1px solid white;
+    border-left: none;
+    color: white; }
+  .container #clic8 {
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid white;
+    border-bottom: none;
+    border-top: 1px solid white;
+    border-left: none;
+    color: white; }
+  .container #clic9 {
+    text-align: center;
+    font-size: 30px;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid white;
+    border-left: none;
+    color: white; }
 
 /*# sourceMappingURL=header.css.map */
