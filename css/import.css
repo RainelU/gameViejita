@@ -89,14 +89,15 @@
     color: white; }
 
 .fondo .contenedor .header h1 {
-  animation: ease-in-out 5s infinite alternate loop;
+  animation: ease-in-out 10s infinite alternate loop;
   animation-name: updown;
   font-size: 40px;
-  background-color: white;
-  color: black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
   padding: 20px;
-  font-family: 'Font Awesome 5 Free Solid';
-  border-radius: 50%; }
+  z-index: 1;
+  font-family: 'Font Awesome 5 Free Solid'; }
 @keyframes updown {
   from {
     margin-left: 40%;
